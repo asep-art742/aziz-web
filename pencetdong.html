@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>Minta THR 😆</title>
+
+<style>
+body{
+    margin:0;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    background:linear-gradient(135deg,#1d2671,#c33764);
+    font-family:Arial;
+    color:white;
+    text-align:center;
+}
+
+h1{
+    font-size:40px;
+}
+
+.tangan{
+    font-size:90px;
+    margin-top:20px;
+    animation:gerak 1s infinite alternate;
+}
+
+@keyframes gerak{
+    from{ transform:translateY(0);}
+    to{ transform:translateY(20px);}
+}
+
+button{
+    margin-top:30px;
+    padding:15px 40px;
+    font-size:22px;
+    border:none;
+    border-radius:10px;
+    background:#00ffcc;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+button:hover{
+    transform:scale(1.1);
+    background:#00cc99;
+}
+</style>
+</head>
+
+<body>
+
+<h1>Bang... THR nya Bang 🙏</h1>
+
+<div class="tangan">🤲</div>
+
+<button onclick="donate()">Kirim THR 💸</button>
+
+<script>
+function donate(){
+    window.location.href = "https://sociabuzz.com/asep_aziz23/tribe?_ref=linkbio";
+}
+</script>
+
+</body>
+</html>
